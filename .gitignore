@@ -1,0 +1,28 @@
+# Ignore environment variables and credentials
+.env
+*.json
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore virtual environment
+venv/
+*.venv/
+*.env/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Ngrok tunnels
+ngrok.log
+ngrok2.log
